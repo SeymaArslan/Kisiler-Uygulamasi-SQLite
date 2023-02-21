@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1247479B29A4D6CD009A3510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247479A29A4D6CD009A3510 /* AppDelegate.swift */; };
+		1247479D29A4D6CD009A3510 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247479C29A4D6CD009A3510 /* SceneDelegate.swift */; };
+		1247479F29A4D6CD009A3510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247479E29A4D6CD009A3510 /* ViewController.swift */; };
+		124747A229A4D6CD009A3510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124747A029A4D6CD009A3510 /* Main.storyboard */; };
+		124747A529A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 124747A329A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodeld */; };
+		124747A729A4D6CF009A3510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124747A629A4D6CF009A3510 /* Assets.xcassets */; };
+		124747AA29A4D6CF009A3510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124747A829A4D6CF009A3510 /* LaunchScreen.storyboard */; };
+		124747B529A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124747B429A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimTests.swift */; };
+		124747BF29A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124747BE29A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITests.swift */; };
+		124747C129A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124747C029A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		124747B129A4D6CF009A3510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1247478F29A4D6CD009A3510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1247479629A4D6CD009A3510;
+			remoteInfo = "Kisiler Uygulamasi Tasarim";
+		};
+		124747BB29A4D6CF009A3510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1247478F29A4D6CD009A3510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1247479629A4D6CD009A3510;
+			remoteInfo = "Kisiler Uygulamasi Tasarim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1247479729A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kisiler Uygulamasi Tasarim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1247479A29A4D6CD009A3510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1247479C29A4D6CD009A3510 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1247479E29A4D6CD009A3510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124747A129A4D6CD009A3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		124747A429A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kisiler_Uygulamasi_Tasarim.xcdatamodel; sourceTree = "<group>"; };
+		124747A629A4D6CF009A3510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124747A929A4D6CF009A3510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		124747AB29A4D6CF009A3510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124747B029A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kisiler Uygulamasi TasarimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124747B429A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_Uygulamasi_TasarimTests.swift; sourceTree = "<group>"; };
+		124747BA29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kisiler Uygulamasi TasarimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		124747BE29A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_Uygulamasi_TasarimUITests.swift; sourceTree = "<group>"; };
+		124747C029A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1247479429A4D6CD009A3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747AD29A4D6CF009A3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747B729A4D6CF009A3510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1247478E29A4D6CD009A3510 = {
+			isa = PBXGroup;
+			children = (
+				1247479929A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */,
+				124747B329A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests */,
+				124747BD29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests */,
+				1247479829A4D6CD009A3510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1247479829A4D6CD009A3510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1247479729A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim.app */,
+				124747B029A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests.xctest */,
+				124747BA29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1247479929A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */ = {
+			isa = PBXGroup;
+			children = (
+				1247479A29A4D6CD009A3510 /* AppDelegate.swift */,
+				1247479C29A4D6CD009A3510 /* SceneDelegate.swift */,
+				1247479E29A4D6CD009A3510 /* ViewController.swift */,
+				124747A029A4D6CD009A3510 /* Main.storyboard */,
+				124747A629A4D6CF009A3510 /* Assets.xcassets */,
+				124747A829A4D6CF009A3510 /* LaunchScreen.storyboard */,
+				124747AB29A4D6CF009A3510 /* Info.plist */,
+				124747A329A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodeld */,
+			);
+			path = "Kisiler Uygulamasi Tasarim";
+			sourceTree = "<group>";
+		};
+		124747B329A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests */ = {
+			isa = PBXGroup;
+			children = (
+				124747B429A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimTests.swift */,
+			);
+			path = "Kisiler Uygulamasi TasarimTests";
+			sourceTree = "<group>";
+		};
+		124747BD29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				124747BE29A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITests.swift */,
+				124747C029A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift */,
+			);
+			path = "Kisiler Uygulamasi TasarimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1247479629A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124747C429A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi Tasarim" */;
+			buildPhases = (
+				1247479329A4D6CD009A3510 /* Sources */,
+				1247479429A4D6CD009A3510 /* Frameworks */,
+				1247479529A4D6CD009A3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kisiler Uygulamasi Tasarim";
+			productName = "Kisiler Uygulamasi Tasarim";
+			productReference = 1247479729A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		124747AF29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124747C729A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi TasarimTests" */;
+			buildPhases = (
+				124747AC29A4D6CF009A3510 /* Sources */,
+				124747AD29A4D6CF009A3510 /* Frameworks */,
+				124747AE29A4D6CF009A3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124747B229A4D6CF009A3510 /* PBXTargetDependency */,
+			);
+			name = "Kisiler Uygulamasi TasarimTests";
+			productName = "Kisiler Uygulamasi TasarimTests";
+			productReference = 124747B029A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		124747B929A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124747CA29A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi TasarimUITests" */;
+			buildPhases = (
+				124747B629A4D6CF009A3510 /* Sources */,
+				124747B729A4D6CF009A3510 /* Frameworks */,
+				124747B829A4D6CF009A3510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124747BC29A4D6CF009A3510 /* PBXTargetDependency */,
+			);
+			name = "Kisiler Uygulamasi TasarimUITests";
+			productName = "Kisiler Uygulamasi TasarimUITests";
+			productReference = 124747BA29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1247478F29A4D6CD009A3510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1247479629A4D6CD009A3510 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					124747AF29A4D6CF009A3510 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1247479629A4D6CD009A3510;
+					};
+					124747B929A4D6CF009A3510 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1247479629A4D6CD009A3510;
+					};
+				};
+			};
+			buildConfigurationList = 1247479229A4D6CD009A3510 /* Build configuration list for PBXProject "Kisiler Uygulamasi Tasarim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1247478E29A4D6CD009A3510;
+			productRefGroup = 1247479829A4D6CD009A3510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1247479629A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */,
+				124747AF29A4D6CF009A3510 /* Kisiler Uygulamasi TasarimTests */,
+				124747B929A4D6CF009A3510 /* Kisiler Uygulamasi TasarimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1247479529A4D6CD009A3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124747AA29A4D6CF009A3510 /* LaunchScreen.storyboard in Resources */,
+				124747A729A4D6CF009A3510 /* Assets.xcassets in Resources */,
+				124747A229A4D6CD009A3510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747AE29A4D6CF009A3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747B829A4D6CF009A3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1247479329A4D6CD009A3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1247479F29A4D6CD009A3510 /* ViewController.swift in Sources */,
+				1247479B29A4D6CD009A3510 /* AppDelegate.swift in Sources */,
+				124747A529A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodeld in Sources */,
+				1247479D29A4D6CD009A3510 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747AC29A4D6CF009A3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124747B529A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124747B629A4D6CF009A3510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124747BF29A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITests.swift in Sources */,
+				124747C129A4D6CF009A3510 /* Kisiler_Uygulamasi_TasarimUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		124747B229A4D6CF009A3510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1247479629A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */;
+			targetProxy = 124747B129A4D6CF009A3510 /* PBXContainerItemProxy */;
+		};
+		124747BC29A4D6CF009A3510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1247479629A4D6CD009A3510 /* Kisiler Uygulamasi Tasarim */;
+			targetProxy = 124747BB29A4D6CF009A3510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		124747A029A4D6CD009A3510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124747A129A4D6CD009A3510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		124747A829A4D6CF009A3510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124747A929A4D6CF009A3510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		124747C229A4D6CF009A3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		124747C329A4D6CF009A3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124747C529A4D6CF009A3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler Uygulamasi Tasarim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-Tasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		124747C629A4D6CF009A3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kisiler Uygulamasi Tasarim/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-Tasarim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		124747C829A4D6CF009A3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-TasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kisiler Uygulamasi Tasarim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kisiler Uygulamasi Tasarim";
+			};
+			name = Debug;
+		};
+		124747C929A4D6CF009A3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-TasarimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kisiler Uygulamasi Tasarim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kisiler Uygulamasi Tasarim";
+			};
+			name = Release;
+		};
+		124747CB29A4D6CF009A3510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-TasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kisiler Uygulamasi Tasarim";
+			};
+			name = Debug;
+		};
+		124747CC29A4D6CF009A3510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.Kisiler-Uygulamasi-TasarimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kisiler Uygulamasi Tasarim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1247479229A4D6CD009A3510 /* Build configuration list for PBXProject "Kisiler Uygulamasi Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124747C229A4D6CF009A3510 /* Debug */,
+				124747C329A4D6CF009A3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124747C429A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi Tasarim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124747C529A4D6CF009A3510 /* Debug */,
+				124747C629A4D6CF009A3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124747C729A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi TasarimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124747C829A4D6CF009A3510 /* Debug */,
+				124747C929A4D6CF009A3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124747CA29A4D6CF009A3510 /* Build configuration list for PBXNativeTarget "Kisiler Uygulamasi TasarimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124747CB29A4D6CF009A3510 /* Debug */,
+				124747CC29A4D6CF009A3510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		124747A329A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				124747A429A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodel */,
+			);
+			currentVersion = 124747A429A4D6CD009A3510 /* Kisiler_Uygulamasi_Tasarim.xcdatamodel */;
+			path = Kisiler_Uygulamasi_Tasarim.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1247478F29A4D6CD009A3510 /* Project object */;
+}
